@@ -2432,7 +2432,7 @@ void traffic_draw_programm() {
         output_buffer << "\n" << print_ban_thresholds(global_ban_settings);
     }
 
-    /// by mitya
+    // by mitya
     //if (!ban_list.empty()) {
         output_buffer << std::endl << "Ban list:" << std::endl;
         output_buffer << print_ddos_attack_details();
